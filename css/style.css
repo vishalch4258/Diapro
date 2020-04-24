@@ -1,0 +1,110 @@
+body {
+    padding-top: 56px;
+}
+
+.carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: #006afb
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.jumbotron-carousel {
+    background-color: transparent;
+}
+
+.btn-carousel {
+    background-color: orangered;
+    border: none;
+    border-radius: 32px;
+}
+
+.carousel-container{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: start;
+    padding-left: 0;
+    margin-left: 6%;
+    list-style: none;
+}
+
+section{
+    margin-top: 64px;
+}
+
+.why-diapro .card{
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px #d2cbcb;
+}
+
+.features{
+    background-image: url(../images/cloud_white.svg);
+    background-repeat: no-repeat;
+    background-color: #fbcd38;
+    background-position: bottom;
+    margin-top: 0px;
+    /* background-size: cover; */
+}
+
+.jumbotron-features{
+    max-width: 50%;
+    margin-right: 20px;
+    margin-bottom: 15%;
+}
+
+.btn-features{
+    border: 2px solid black;
+    background: none;
+    border-radius: 32px;
+}
+
+footer{
+    background-image: url(../images/footer-curve.svg);
+    background-repeat: no-repeat;
+    background-color: #f0f4fc;
+    background-position: top;
+    margin-top: 0px;
+    /* background-size: cover; */
+}
+
+.social i{
+    color: white;
+    padding: 4px;
+}
+
+footer .nav-item a{
+    border-right: 1px solid #1b4971;
+    color: white;
+}
